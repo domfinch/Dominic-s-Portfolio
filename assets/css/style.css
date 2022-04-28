@@ -1,0 +1,189 @@
+body {
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+:root {
+  --primary-color: #dbdbdb;
+  --secondary-color: #33b4fa;
+  --tertiary-color: #39a6b2;
+}
+
+nav a {
+  padding: 5px 10px;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* position: webkit-sticky; */
+  /* position: sticky; */
+  top: 0;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #dbdbdb;
+}
+
+header a {
+  text-decoration: none;
+  color: #93d8ec;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: of 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+.banner {
+background-image: url('https://whyy.org/wp-content/uploads/2019/12/bright-daylight-environment-forest-240040-1-768x512.jpg');
+background-size: cover;
+background-position: center;
+min-height: 200px;
+padding: 3%;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+text-align: right;
+}
+
+.banner div{
+  flex: 0 0 90%;
+}
+
+.banner div h2{
+  background-color: white;
+  color:black;
+  margin: 0;
+  padding: 5px;
+  display: inline;
+
+}
+
+/* main section */
+.sections {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.section-title {
+  flex: 0 0 20%;
+  text-align: right;
+  border-right: 4px solid black;
+  font-size: 4vw;
+  padding-right: 15px;
+  line-height: 1;
+}
+
+.sections > div {
+  flex: 0 0 77%;
+}
+.sections p {
+  margin-bottom: 15px
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.run-buddy {
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-position: 100%;
+}
+.horiseon {
+  background-image: url;
+}
+
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.flex-item {
+  border: 5px solid var(--secondary);
+  background-color: var(--primary);
+  color: var(--tertiary-color);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+.flex-item:first-child{
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.flex-item div{
+  background-color: rgb(218, 214, 214);
+  padding: 8px 10px;
+}
+
+
+
+.contact .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%
+}
+
+.contact div a{
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
